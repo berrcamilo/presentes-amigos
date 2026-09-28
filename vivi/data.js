@@ -119,6 +119,15 @@ Letícia`,
   {
     id: "amigo4",
     name: "Tutu",
+      letter: `vivi,
+
+como é bom te acompanhar nos 30!!! terceira década te acompanhando e feliz de permanecer aqui pra te ver brilhar mais e mais. amo seu coração, amo vc de todas as formas possíveis. é uma delícia ser sua amiga. saiba que estarei aqui sempre torcendo por vc, viu?
+
+já vi tanta versão sua... mas a melhor sempre é a próxima. vc é daquelas pessoas que deixam a vida mais colorida só por existir nela.
+
+que esses 30 venham com tudo que vc merece e que vc se olhe com o mesmo carinho que todos a sua volta se olham!!
+
+feliz aniversário! te amo muito!!!`,
     photo: "images/amigo4.jpg",
     songs: [
       { spotifyId: "5pomCBdsTZSDCFHH8BAUQe", photo: "images/amigo4_musica1.jpeg", text: "não tem como não colocar essa música nessa playlist!! acho que de todas, essa é a música que mais reflete a nossa amizade, pq foi onde nossa amizade começou. me lembra muito quando vc chegou na escola e eu fiquei completamente obcecada querendo ser sua amiga logo kkk e amo que tudo começou por causa da mitchie torres." },
