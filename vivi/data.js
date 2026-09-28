@@ -108,6 +108,21 @@ Letícia`,
   {
     id: "amigo3",
     name: "Lari",
+      letter: `viviiiii,
+
+que privilégio poder estar do seu lado há tantos anos. é muito lindinho ver você florescer e ser cada vez mais você. sou muito grata pela nossa amizade, pela quantidade de referências de skincare e comidinhas que conheci graças a você e por todas as memórias que colecionamos nesses quase 20 anos juntas.
+
+selecionar os materiais pra esse presente e rever nossas fotos deixou meu coração muito quentinho. é mágico e raro o que temos no grupo, e poder te celebrar fica ainda mais especial* por isso. 🧡
+
+que a entrada nos 30 venha com maturidade e calma pra enfrentar os desafios, tranquilidade e sabedoria pra revisitar o que já foi vivido e, que seja usado, junto com a paciência pra conquistar tudo o que você deseja.
+
+te amo e te admiro muitoooo!
+
+*PS: você lembra do seu aniversário de 15 anos, quando, no discurso, eu acabei falando que você era muito especial várias vezes? minha memória é péssima, mas lembro que repeti inúmeras vezes uma mesma palavra hahaha. mas, assim, você realmente é muito especial!!!!! e eu sou muito grata à vida por ter a vivi!!!!
+
+com carinho,
+
+lari/lassira 💛`,
     photo: "images/amigo3.jpg",
     songs: [
       { spotifyId: "0MSC5BYWcNhcBNNYORXZyj", photo: "images/amigo3_musica1.jpeg", text: "essa música me lembra você porque panic me lembra você. mas, além disso, escolhi essa porque tenho a memória muito viva de você falar o nome dela rapidíssimo na escola" },
