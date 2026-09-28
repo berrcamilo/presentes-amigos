@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>30 anos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- TELA DE CAPA -->
+<section id="cover" class="screen active">
+  <div class="photo-wall" id="cover-photo-wall" aria-hidden="true"></div>
+  <div class="cover-inner">
+    <p class="eyebrow">um presente de aniversário</p>
+    <h1 class="cover-title"><span id="cover-name">Nome</span><br>30 anos</h1>
+    <p class="cover-message" id="cover-message">Trinta anos, trinta músicas, sete amigos e um monte de amor.</p>
+    <button id="start-btn" class="btn btn-primary">Abrir nosso presente</button>
+    <p class="cover-hint">30 músicas escolhidas com carinho pelos seus amigos ♥</p>
+  </div>
+</section>
+
+<!-- TELA DE DIVISÓRIA DE AMIGO -->
+<section id="divider" class="screen">
+  <div class="divider-inner">
+    <p class="eyebrow" id="divider-eyebrow">agora é a vez de</p>
+    <div class="divider-photo-wrap">
+      <img id="divider-photo" class="divider-photo" alt="">
+    </div>
+    <h2 class="divider-name" id="divider-name">Nome do Amigo</h2>
+    <p class="divider-sub" id="divider-sub">escolheu estas músicas pra você</p>
+    <div class="divider-actions">
+      <button id="divider-prev-btn" class="btn btn-ghost btn-ghost-light">‹ anterior</button>
+      <button class="btn btn-primary next-btn">Continuar</button>
+    </div>
+  </div>
+</section>
+
+<!-- TELA DE MÚSICA -->
+<section id="song" class="screen">
+  <div class="song-top">
+    <span class="song-progress"><span id="song-index">1</span> / <span id="song-total">30</span></span>
+    <span class="song-chosen-by" id="song-chosen-by">Escolhida por Alguém</span>
+  </div>
+
+  <div class="song-inner">
+    <div class="song-details">
+      <div class="song-photo-wrap">
+        <img id="song-photo" class="song-photo" alt="">
+      </div>
+      <p class="song-text" id="song-text">Texto sobre a música aparece aqui.</p>
+    </div>
+
+    <div class="video-wrap">
+      <div id="spotify-player"></div>
+      <button id="play-fallback" class="play-fallback" aria-label="Tocar música">▶</button>
+    </div>
+  </div>
+
+  <div class="song-controls">
+    <button id="prev-btn" class="btn btn-ghost">‹ anterior</button>
+    <button id="next-btn" class="btn btn-primary">seguinte ›</button>
+  </div>
+</section>
+
+<!-- TELA FINAL -->
+<section id="ending" class="screen">
+  <div class="photo-wall" id="ending-photo-wall" aria-hidden="true"></div>
+  <div class="cover-inner">
+    <p class="eyebrow">fim (por agora)</p>
+    <h1 class="cover-title">Feliz aniversário<br><span id="ending-name">Nome</span></h1>
+    <p class="cover-message">Trinta músicas, trinta motivos pra te amar. Parabéns pelos 30! 🥂</p>
+    <div class="ending-actions">
+      <a id="spotify-link" class="btn btn-primary" href="#" target="_blank" rel="noopener">Ouvir tudo no Spotify ♫</a>
+      <button id="replay-btn" class="btn btn-ghost">Ver tudo de novo</button>
+    </div>
+
+    <!-- BOTÃO DE PRESENTE EXTRA (opcional — ver PRESENTE_ATIVADO no data.js) -->
+    <div class="reveal-wrap" id="reveal-wrap" hidden>
+      <button id="reveal-gift-btn" class="btn btn-gold">🎁 Revelar presente extra</button>
+      <div class="reveal-panel" id="reveal-panel" hidden>
+        <p id="reveal-message"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BARRA FIXA PRA IR DIRETO NO AMIGO QUE QUISER -->
+<nav id="friend-nav" class="friend-nav" aria-label="Ir direto para"></nav>
+
+<script src="https://open.spotify.com/embed/iframe-api/v1" async></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
