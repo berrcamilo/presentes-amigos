@@ -70,6 +70,9 @@ function showScreen(name) {
 }
 
 // -------- Preenche textos fixos (nome da aniversariante) --------
+// Título que aparece na aba do navegador — pega o nome automaticamente do
+// ANIVERSARIANTE (lá no data.js), pra não precisar editar isso a cada amiga.
+document.title = ANIVERSARIANTE + " — 30 anos 🎉";
 document.getElementById("cover-name").textContent = ANIVERSARIANTE;
 document.getElementById("cover-message").textContent = MENSAGEM_CAPA;
 document.getElementById("ending-name").textContent = ANIVERSARIANTE;
